@@ -56,7 +56,10 @@ html {
     z-index: 1;
     
 }
-
+ .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 70px rgba(255, 0, 100, 0.7);;
+}
 .card-body {
     display: inline-block;
 }
